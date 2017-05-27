@@ -1,0 +1,180 @@
+/* Banner */
+
+	#banner {
+		background-attachment: 	fixed;
+		background-color: #494d53;
+		background-image: url("images/bannerport.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #d1d2d4;
+		padding: 16em 0;
+		position: relative;
+		text-align: center;
+		width:100%;
+	}
+
+		
+		#banner h1 {
+			font-size: 8em;
+			line-height: 1.25em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+            color:white;
+            font-family: "Merriweather Sans", sans-serif;
+            font-weight:800;
+		}
+
+		#banner p {
+			font-size: 1.5em;
+			margin-bottom: 1.75em;
+		}
+
+    
+.port{
+    width:100%;
+    margin:auto;
+    margin-top:75px;
+   
+}
+.port img{
+opacity:1;
+widows: 250px;
+height:250px;
+border: solid 3px #656565;
+margin-left: 25px;
+            -moz-transition: opacity 0.4s ease-in-out;
+			-webkit-transition: opacity 0.4s ease-in-out;
+			-o-transition: opacity 0.4s ease-in-out;
+			-ms-transition: opacity 0.4s ease-in-out;
+			transition: opacity 0.4s ease-in-out;
+
+
+}
+
+.port img:hover{opacity:0.5;
+}
+
+.work{
+   float:left;
+  
+   margin-left:70px;
+   width:400px;
+   overflow:hidden; 
+   height:400px;  
+   
+}
+
+.work p{
+    padding:25px;
+    line-height: 1.2em;
+    font-size:0.9em;
+}
+
+
+
+@media screen and (max-width: 600px)
+{
+
+
+#banner p{
+	font-size:20px;
+	padding-left:50px;
+	padding-right:50px;
+	
+}
+
+#banner h1{
+	font-size:35px;
+}
+
+#banner img{
+	width:250px;
+	height:50px;
+}
+#header a {
+    word-wrap: break-word;
+
+}
+
+ .major p{
+    font-size:18px;
+  }
+
+
+.major{
+	text-align:center;
+}
+.major img{
+	margin:0;
+	padding:0;
+	
+
+} 
+.container2{
+	max-width:400px;
+	margin:auto;
+	overflow:hidden;
+}
+
+.container2 .first_row{
+	max-width:350px;
+	text-align:center;
+	margin-left:35px;
+	border-top: solid grey 3px;
+	border-bottom:none;
+}
+
+
+
+#header nav {
+	height:75px;
+
+	   
+}
+#header ul{
+	
+	font-size:15px;
+	float:left;
+	padding:10px;
+	margin-left:10px;
+}
+
+ul li{
+	margin-left:10px;
+}
+
+
+
+
+#header nav > ul {
+				list-style: none;
+				margin: 0;
+				padding-left: 0px;
+				text-align:center;
+			}
+
+				#header nav > ul > li {
+				
+					margin-left: 25px;
+					
+					
+				}
+
+					#header nav > ul > li a {
+					
+					margin-left:18px;
+					}
+
+
+						
+.person{
+	margin-left:10px;
+
+}
+
+
+
+
+
+}

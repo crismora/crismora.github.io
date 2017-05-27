@@ -1,0 +1,225 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:300,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Oswald:700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700");
+
+/* colors: #0F1626(navy blue) #AB987A(leather) #FF533D(coral) #F5F5F5(eggshell) */
+/* Basic */
+
+	
+		
+
+/* Form */
+
+	
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+}
+
+
+
+
+
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+
+
+
+
+
+/* colors: #0F1626(navy blue) #AB987A(leather) #FF533D(coral) #F5F5F5(eggshell) */
+	
+
+
+
+
+	
+
+	
+
+/* Banner */
+
+	#banner {
+		background-attachment: 	fixed;
+		background-color: #494d53;
+		background-image: url("images/bannerlight.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #d1d2d4;
+		padding: 16em 0;
+		position: relative;
+		text-align: center;
+        height:100%;
+
+	}
+
+		
+
+
+		#banner .button {
+			border-color: grey !important;
+			color: black !important;
+		}
+
+
+		#banner h1 {
+			font-size: 8em;
+			line-height: 1.25em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+            color:black;
+            font-family: "Merriweather Sans", sans-serif;
+            font-weight:800;
+		}
+
+		#banner p {
+			font-size: 1.5em;
+			margin-bottom: 5em;
+            color:black;
+            font-weight:400;
+		}
+
+	
+
+.contact{
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+    padding-bottom:125px;
+    border-bottom:#656565 solid 25px;
+
+}
+
+#contactform{
+  
+    width:724px;
+    padding-left:24px;
+    margin:auto;
+    text-align:center;
+}
+
+#contactform h2{
+    font-size: 5em;
+			line-height: 1.25em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+            color:#0F1626;
+            font-family: "Lato", sans-serif;
+            font-weight:700;
+}
+
+.location{
+    float:left;
+    margin:auto;
+    padding:2px;
+    width:100%;
+    
+}
+
+.location p{
+    line-height:1em;
+}
+
+.gmap{float:left;
+border-bottom:black solid 3px;
+margin-bottom:35px;}
+
+
+#footer{
+
+        margin-top:28px;
+    }
+
+/* colors: #0F1626(navy blue) #AB987A(leather) #FF533D(coral) #F5F5F5(eggshell) */
+
+@media screen and (max-width: 600px)
+{
+
+
+#banner p{
+	font-size:20px;
+	padding-left:50px;
+	padding-right:50px;
+	
+}
+
+#banner h1{
+	font-size:35px;
+}
+
+#banner img{
+	width:250px;
+	height:50px;
+}
+#header a {
+    word-wrap: break-word;
+
+}
+
+
+#header nav {
+	height:75px;
+
+	   
+}
+#header ul{
+	
+	font-size:15px;
+	float:left;
+	padding:10px;
+	margin-left:10px;
+}
+
+ul li{
+	margin-left:10px;
+}
+
+
+
+
+#header nav > ul {
+				list-style: none;
+				margin: 0;
+				padding-left: 0px;
+				text-align:center;
+			}
+
+				#header nav > ul > li {
+				
+					margin-left: 25px;
+					
+					
+				}
+
+					#header nav > ul > li a {
+					
+					margin-left:18px;
+					}
+
+
+						
+#contactform{
+	max-width:400px; 
+}
+
+#contactform h2{ font-size:25px;
+
+}
+
+
+
+}

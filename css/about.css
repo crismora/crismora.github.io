@@ -1,0 +1,261 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:300,700");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Oswald:700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans:700,800");
+
+
+/* colors: #0F1626(navy blue) #AB987A(leather) #FF533D(coral) #F5F5F5(eggshell) */
+/* Basic */
+
+	
+
+
+	
+
+
+	
+
+
+
+/* Banner */
+
+	#banner {
+		background-attachment: 	fixed;
+		background-color: #494d53;
+		background-image: url("images/bannerstory22.jpg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #d1d2d4;
+		padding: 16em 0;
+		position: relative;
+		text-align: center;
+		width:100%;
+	}
+
+		
+
+		#banner h1 {
+			font-size: 8em;
+			line-height: 1.25em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+            color:#0F1626;
+            font-family: "Merriweather Sans", sans-serif;
+            font-weight:800;
+		}
+
+        
+
+		#banner p {
+			font-size: 1.5em;
+			margin-bottom: 1.75em;
+            color:#0F1626;
+            font-family: "Lato", sans-serif ;
+	font-weight:400;
+        
+		}
+
+
+/* colors: #0F1626(navy blue) #AB987A(leather) #FF533D(coral) #F5F5F5(eggshell) */
+
+
+.container2{
+	width:600px;
+	margin:auto;
+	margin-top:45px;
+	clear:right ;
+    text-align:center;
+    padding-bottom:150px;
+    padding-top:150px;	
+}
+
+.container2 h2{
+
+			font-size: 3em;
+			line-height: 1.25em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+            color:#0F1626;
+            font-family: "Lato", sans-serif;
+            font-weight:800;
+		
+
+}
+
+.people{
+    width:100%;
+    margin:auto;
+   
+}
+.people img{
+
+widows: 250px;
+height:250px;
+border: solid 3px #FF533D;
+margin-left: 25px;
+
+}
+
+.person{
+   float:left;
+  
+   margin-left:180px;
+   width:400px;
+   border-left: dotted 1px black;
+}
+
+.person p{
+    padding:25px;
+    line-height: 1.2em;
+    font-size:0.9em;
+}
+
+
+.container3{
+	width:100%;
+	margin:auto;
+	margin-top:45px;
+	clear:both ;
+	background-color:#0F1626;
+	text-align:center !important;
+
+}
+
+.container3 p {color:#AFAFAF;
+text-align: center;
+font-family:"Lato", sans-serif;
+font-weight: 300;
+font-size: 1em;
+padding-top:25px;
+
+}
+
+
+.container3 h1 {color:white;
+text-align: center;
+font-family: "Oswald", sans-serif;
+font-weight: 700;
+font-size: 3em;
+border-bottom:#FF533D solid;
+padding-bottom: 75px;
+padding-top: 150px;
+}
+
+
+.container3 a{ 
+	margin-bottom:150px;
+	padding: 25px;
+	color:white !important;
+}
+
+
+
+
+@media screen and (max-width: 600px)
+{
+
+
+#banner p{
+	font-size:20px;
+	padding-left:50px;
+	padding-right:50px;
+	
+}
+
+#banner h1{
+	font-size:35px;
+}
+
+#banner img{
+	width:250px;
+	height:50px;
+}
+#header a {
+    word-wrap: break-word;
+
+}
+
+ .major p{
+    font-size:18px;
+  }
+
+
+.major{
+	text-align:center;
+}
+.major img{
+	margin:0;
+	padding:0;
+	
+
+} 
+.container2{
+	max-width:400px;
+	margin:auto;
+	overflow:hidden;
+}
+
+.container2 .first_row{
+	max-width:350px;
+	text-align:center;
+	margin-left:35px;
+	border-top: solid grey 3px;
+	border-bottom:none;
+}
+
+
+
+#header nav {
+	height:75px;
+
+	   
+}
+#header ul{
+	
+	font-size:15px;
+	float:left;
+	padding:10px;
+	margin-left:10px;
+}
+
+ul li{
+	margin-left:10px;
+}
+
+
+
+
+#header nav > ul {
+				list-style: none;
+				margin: 0;
+				padding-left: 0px;
+				text-align:center;
+			}
+
+				#header nav > ul > li {
+				
+					margin-left: 25px;
+					
+					
+				}
+
+					#header nav > ul > li a {
+					
+						margin-left:18px;
+					}
+
+						
+.person{
+	margin-left:10px;
+
+}
+
+
+
+
+
+}
+
+	
